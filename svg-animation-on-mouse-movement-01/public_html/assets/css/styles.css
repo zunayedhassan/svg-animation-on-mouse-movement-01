@@ -1,0 +1,40 @@
+/* 
+    Created on : May 24, 2018, 3:18:05 PM
+    Author     : Zunayed Hassan
+*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+    cursor: none;
+}
+
+.aiom-layer {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#login-background {
+    cursor: none;
+}
+
+#message {
+    color: #ffffff;
+    padding: 2em;
+    font-size: 1em;
+    text-shadow: 1px 1px #000000;
+}
+
+#message a {
+    color: #ffffff;
+}
+
+#message a:hover {
+    text-decoration: underline;
+}
